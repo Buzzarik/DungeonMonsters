@@ -1,0 +1,9 @@
+cmake_minimum_required(VERSION 3.0)
+
+set(CMAKE_CXX_STANDARD 17)
+project(DungeonMonsters)
+add_executable(${PROJECT_NAME} 
+    Creature.h Creature.cpp
+    Monster.h Monster.cpp
+    Player.h Player.cpp
+    play.cpp)
